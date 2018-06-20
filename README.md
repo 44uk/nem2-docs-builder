@@ -14,13 +14,13 @@ You can build [nem2-docs](https://github.com/nemtech/nem2-docs)
 4. Run these command!
 
 ```
-# default output html
-./build.sh # => build/html/
+# build as pdf
+./build.sh latexpdf ja # => build/latexpdf/nem2-docs.pdf
 ```
 
 ```
-# build as pdf
-./build.sh latexpdf # => build/latexpdf/nem2-docs.pdf
+# build as html
+./build.sh html ja # => build/html/
 ```
 
 ## Thanks
